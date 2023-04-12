@@ -1,9 +1,10 @@
-import * as React from 'react';
+import React from 'react';
 import Tabs from '@mui/joy/Tabs';
 import TabList from '@mui/joy/TabList';
 import Tab, { tabClasses } from '@mui/joy/Tab';
 
-export default function Navbar() {
+
+export default function Navbar({currentPage, handlePageChange}) {
   return (
     <Tabs aria-label="tabs" defaultValue={0}>
       <TabList
@@ -28,7 +29,10 @@ export default function Navbar() {
           },
         }}
       >
-        <Tab>About Me</Tab>
+        <Tab> ⌂ Home </Tab>
+        <Tab onClick={() => handlePageChange('About')}>
+            About Me
+            </Tab>
         <Tab>Portfolio</Tab>
         <Tab>Resume</Tab>
         <Tab>Contact</Tab>
