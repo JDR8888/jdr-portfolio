@@ -2,11 +2,11 @@ import React from 'react';
 import Tabs from '@mui/joy/Tabs';
 import TabList from '@mui/joy/TabList';
 import Tab, { tabClasses } from '@mui/joy/Tab';
-
+import '../assets/css/Navbar.css';
 
 export default function Navbar({currentPage, handlePageChange}) {
   return (
-    <Tabs aria-label="tabs" defaultValue={0}>
+    <Tabs aria-label="tabs" defaultValue={0} className="my-tabs">
       <TabList
         variant="plain"
         sx={{
@@ -15,7 +15,9 @@ export default function Navbar({currentPage, handlePageChange}) {
           '--ListItem-minHeight': '48px',
           [`& .${tabClasses.root}`]: {
             boxShadow: 'none',
-            fontWeight: 'md',
+            fontWeight: 'bold',
+            color: 'white', // set text color to white
+            backgroundColor: '#060808',
             [`&.${tabClasses.selected}::before`]: {
               content: '""',
               display: 'block',
@@ -24,18 +26,18 @@ export default function Navbar({currentPage, handlePageChange}) {
               right: 'var(--ListItem-paddingRight)', // change to `0` to stretch to the edge.
               bottom: 0,
               height: 3,
-              bgcolor: '#32494B',
+              bgcolor: 'bisque',
             },
           },
         }}
       >
-        <Tab> ⌂ Home </Tab>
+        <Tab onClick={() => handlePageChange('Home')}> ⌂ HOME </Tab>
         <Tab onClick={() => handlePageChange('About')}>
-            About Me
+            ABOUT
             </Tab>
-        <Tab>Portfolio</Tab>
-        <Tab>Resume</Tab>
-        <Tab>Contact</Tab>
+        <Tab onClick={() => handlePageChange('Projects')}>PORTFOLIO</Tab>
+        <Tab onClick={() => handlePageChange('Resume')}>RESUME</Tab>
+        <Tab onClick={() => handlePageChange('Contact')}>CONTACT</Tab>
       </TabList>
     </Tabs>
   );

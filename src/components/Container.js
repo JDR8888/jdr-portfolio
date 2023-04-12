@@ -5,6 +5,7 @@ import About from '../pages/About.js';
 import Projects from '../pages/Projects.js';
 import Contact from '../pages/Contact.js';
 import Resume from '../pages/Resume.js'
+
 import '../assets/css/Container.css'
 
 export default function Container() {
@@ -22,7 +23,7 @@ const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
+    if (currentPage === 'Projects') {
       return <Projects />;
     }
     if (currentPage === 'Resume') {

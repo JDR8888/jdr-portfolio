@@ -6,9 +6,9 @@ function Resume() {
   
   return (
     <div>
-      <Document file={myPDF}>
+      {/* <Document file={myPDF}>
         <Page pageNumber={1} />
-      </Document>
+      </Document> */}
     
     </div>
   );
