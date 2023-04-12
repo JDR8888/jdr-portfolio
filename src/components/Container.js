@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import Home from '../pages/home';
 import About from '../pages/About.js';
 import Projects from '../pages/Projects.js';
 import Contact from '../pages/Contact.js';
 import Resume from '../pages/Resume.js'
+import '../assets/css/Container.css'
 
 export default function Container() {
+
+useEffect(() => {
+    document.title = `${currentPage} | Jake Rudlong` 
+})
+
 const[currentPage, setCurrentPage] = useState('Home');
 
 const renderPage = () => {

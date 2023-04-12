@@ -24,7 +24,7 @@ export default function Navbar({currentPage, handlePageChange}) {
               right: 'var(--ListItem-paddingRight)', // change to `0` to stretch to the edge.
               bottom: 0,
               height: 3,
-              bgcolor: 'primary.400',
+              bgcolor: '#32494B',
             },
           },
         }}
