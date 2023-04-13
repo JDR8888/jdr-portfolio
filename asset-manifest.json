@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.c57af000.js",
-    "static/js/787.a3c9ebf3.chunk.js": "/static/js/787.a3c9ebf3.chunk.js",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.c57af000.js.map": "/static/js/main.c57af000.js.map",
-    "787.a3c9ebf3.chunk.js.map": "/static/js/787.a3c9ebf3.chunk.js.map"
+    "main.css": "/jdr-portfolio/static/css/main.5911209a.css",
+    "main.js": "/jdr-portfolio/static/js/main.31017fed.js",
+    "static/js/787.a3c9ebf3.chunk.js": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js",
+    "static/media/love-hungry.png": "/jdr-portfolio/static/media/love-hungry.cf11242b719184c24fa1.png",
+    "static/media/2023-resume-short-jdr.pdf": "/jdr-portfolio/static/media/2023-resume-short-jdr.3416fb78047a20656067.pdf",
+    "static/media/jdr-portfolio-pfp.jpg": "/jdr-portfolio/static/media/jdr-portfolio-pfp.0d357658bd6fc76b8c32.jpg",
+    "index.html": "/jdr-portfolio/index.html",
+    "main.5911209a.css.map": "/jdr-portfolio/static/css/main.5911209a.css.map",
+    "main.31017fed.js.map": "/jdr-portfolio/static/js/main.31017fed.js.map",
+    "787.a3c9ebf3.chunk.js.map": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c57af000.js"
+    "static/css/main.5911209a.css",
+    "static/js/main.31017fed.js"
   ]
 }
