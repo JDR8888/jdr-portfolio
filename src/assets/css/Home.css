@@ -1,5 +1,5 @@
 * {
-    background-color: #10181895;
+    background-color: #131414;
 }
 .home-container {
     display: flex;
@@ -32,4 +32,6 @@
     width: 100%;
     max-width: 400px; /* Adjust the size of the image as needed */
     margin: 0 auto;
+    /* -webkit-filter: invert(.75); 
+    filter: invert(.75);  */
   }

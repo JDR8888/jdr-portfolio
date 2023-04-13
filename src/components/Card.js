@@ -13,7 +13,7 @@ const Card = ({ title, description, image, link }) => {
         
       </CardContent>
       {/* Render image or other content based on your design requirements */}
-      <img src={image} alt={title} height="400px" />
+      <img src={image} alt={title} width="650px" />
     </MuiCard>
   );
 };

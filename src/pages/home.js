@@ -1,6 +1,7 @@
 import React from "react";
 import  '../assets/css/Home.css';
-import myPicture from '../assets/images/jdr-portfolio-pfp-svg.svg';
+// import myPicture from '../assets/images/jdr-portfolio-pfp-svg.svg';
+import myPicture from '../assets/images/jdr-portfolio-pfp.jpg'
 
 const Home = () => {
     return (

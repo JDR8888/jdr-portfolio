@@ -565,5 +565,12 @@ c-49 -53 -175 -142 -185 -131 -2 2 38 34 91 72 52 37 98 71 101 76 3 5 8 9 11
 -51 11 -31 15 -33 37 -25 36 14 82 49 82 62 0 8 -3 7 -9 -2 -7 -11 -10 -9 -16
 9 -6 20 -9 21 -17 7 -13 -23 -26 -21 -30 5 -3 21 -4 21 -20 4z"/>
 <path d="M2180 913 c0 -14 19 -38 25 -32 8 8 -5 39 -16 39 -5 0 -9 -3 -9 -7z"/>
+<animateColor  
+           attributeName="fill"   
+           begin="1s"   
+           dur="10s"   
+           values ="white; black; gray; bisque; white; grey; black; red"  
+           repeatCount="indefinite"    
+           /> 
 </g>
 </svg>

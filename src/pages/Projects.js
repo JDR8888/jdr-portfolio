@@ -1,11 +1,8 @@
 import React from 'react';
-import SwiperCore, { Navigation, Pagination } from 'swiper'; // Import Swiper.js modules
-import { Swiper, SwiperSlide } from 'swiper/react'; // Import Swiper.js React components
-import 'swiper/swiper-bundle.min.css'; // Import Swiper.js styles
 import Card from '../components/Card'; // Import the Card component from the Card.js file
 import image1 from '../assets/images/love-hungry.png';
-// Install Swiper.js modules
-SwiperCore.use([Navigation, Pagination]);
+import '../assets/css/projects.css';
+import '../assets/projectView.js';
 
 const Portfolio = () => {
   // Array of project data with title, description, and image properties
@@ -20,21 +17,15 @@ const Portfolio = () => {
     {
       title: 'Project 2',
       description: 'Description of Project 2',
-      image: 'project2.jpg',
+      image: image1,
     },
     // Add more projects to the array as needed
   ];
 
   return (
     <div style={{ maxWidth: '555px', margin: '0 auto' }}>
-      {/* Render Swiper component to wrap Card components */}
-      <Swiper
-        navigation
-        pagination
-        style={{ width: '100%', height: '100%' }}
-      >
         {projects.map((project, index) => (
-          <SwiperSlide key={index}>
+          <section key={index} className='show'>
             {/* Render each project as a Card component */}
             <Card
               title={project.title}
@@ -42,9 +33,8 @@ const Portfolio = () => {
               image={project.image}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
-          </SwiperSlide>
+          </section>
         ))}
-      </Swiper>
     </div>
   );
 };
