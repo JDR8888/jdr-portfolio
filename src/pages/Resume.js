@@ -9,7 +9,8 @@ function Resume() {
       {/* <Document file={myPDF}>
         <Page pageNumber={1} />
       </Document> */}
-    
+      <object width="100%" height="800" data={myPDF} type="application/pdf">   </object>
+
     </div>
   );
 }

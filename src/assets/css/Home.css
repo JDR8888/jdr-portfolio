@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .home-blurb {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .home-blurb-text {
+    font-size: 36px;
+  }
+  
+  .home-image {
+    flex: 1;
+  }
+  
+  .home-image img {
+    width: 100%;
+    max-width: 400px; /* Adjust the size of the image as needed */
+    margin: 0 auto;
+  }

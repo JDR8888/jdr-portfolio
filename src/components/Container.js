@@ -5,6 +5,7 @@ import About from '../pages/About.js';
 import Projects from '../pages/Projects.js';
 import Contact from '../pages/Contact.js';
 import Resume from '../pages/Resume.js'
+import Footer from './Footer'
 
 import '../assets/css/Container.css'
 
@@ -39,6 +40,7 @@ return (
     <div>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+        <Footer />
     </div>
 );
 }
