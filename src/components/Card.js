@@ -6,7 +6,7 @@ const Card = ({ title, description, image, link }) => {
     <MuiCard>
       {/* Use appropriate Material-UI card components and props to customize your card design */}
       <CardContent>
-        <Typography variant="h6">{title}</Typography>
+        <Typography variant="h3">{title}</Typography>
         <Typography variant="body1">{description}</Typography>
         {/* make sure link is a usable thing */}
         <Typography variant="body1">{link}</Typography>
