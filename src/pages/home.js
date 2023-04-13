@@ -8,7 +8,7 @@ const Home = () => {
       <div className="home-container">
         <div className="home-content">
           <div className="home-blurb">
-            <p className="home-blurb-text">Hi, I'm Jake. I like creating cool websites, solving problems with code, hanging with my dog, and eating red meat.</p>
+            <p className="home-blurb-text">Hi, I'm Jake. I like creating cool websites, solving problems with code, hanging with my dog, and eating <span style={ {color: 'red'}}>red</span> meat.</p>
           </div>
           <div className="home-image">
             <img src={myPicture} />
