@@ -11,7 +11,7 @@ import '../assets/css/Footer.css';
 
 export default function Footer() {
   const actions = [
-    { icon: <GitHubIcon className='icon' />, name: 'GitHub', link: 'https://github.com/your-github-url' }, 
+    { icon: <GitHubIcon className='icon' />, name: 'GitHub', link: 'https://github.com/JDR8888' }, 
     { icon: <LinkedInIcon className='icon' />, name: 'LinkedIn', link: 'https://www.linkedin.com/in/jacob-rudlong-0476b6107/' }, 
     { icon: <TwitterIcon className='icon' />, name: 'Twitter', link: 'https://twitter.com/jrudlong' }, 
   ];
@@ -28,7 +28,7 @@ export default function Footer() {
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
-            onClick={() => window.location.href = action.link} 
+            onClick={() => window.open(action.link, '_blank')} 
           />
         ))}
       </SpeedDial>

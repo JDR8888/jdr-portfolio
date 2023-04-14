@@ -1,6 +1,4 @@
+/* apply z-index to our speed-dial icons to display over the container */
 .icon {
-    /* color: red; */
-    font-size: 3em;
     z-index: 9999;
-    /* background-color: grey; */
 }
