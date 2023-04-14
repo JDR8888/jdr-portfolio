@@ -44,7 +44,7 @@ return (
         <img src={jdrIcon} width={'50px'}/>
         </div>
         <div className="name-container">
-          <h1 className="name"> &lt; Jake Rudlong &gt;</h1>
+          <code><h1 className="name"> &lt; Jake Rudlong &gt;</h1></code>
         </div>
       </div>
         {/* <Header /> */}

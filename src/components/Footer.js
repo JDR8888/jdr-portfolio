@@ -11,9 +11,9 @@ import '../assets/css/Footer.css';
 
 export default function Footer() {
   const actions = [
-    { icon: <GitHubIcon className='icon' />, name: 'GitHub', link: 'https://github.com/your-github-url' }, // Update the icon, name, and link for GitHub
-    { icon: <LinkedInIcon className='icon' />, name: 'LinkedIn', link: 'https://www.linkedin.com' }, // Update the icon, name, and link for LinkedIn
-    { icon: <TwitterIcon className='icon' />, name: 'Twitter', link: 'https://twitter.com/jrudlong' }, // Update the icon, name, and link for Twitter
+    { icon: <GitHubIcon className='icon' />, name: 'GitHub', link: 'https://github.com/your-github-url' }, 
+    { icon: <LinkedInIcon className='icon' />, name: 'LinkedIn', link: 'https://www.linkedin.com/in/jacob-rudlong-0476b6107/' }, 
+    { icon: <TwitterIcon className='icon' />, name: 'Twitter', link: 'https://twitter.com/jrudlong' }, 
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function Footer() {
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
-            onClick={() => window.location.href = action.link} // Set the link for the action using window.location.href
+            onClick={() => window.location.href = action.link} 
           />
         ))}
       </SpeedDial>

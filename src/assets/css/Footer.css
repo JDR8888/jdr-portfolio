@@ -1,5 +1,6 @@
 .icon {
-    color: red;
-    font-size: larger;
+    /* color: red; */
+    font-size: 3em;
     z-index: 9999;
+    /* background-color: grey; */
 }
