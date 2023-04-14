@@ -5,12 +5,14 @@ import Footer from "./components/Footer.js"
 // import './assets/css/App.css';
 // import Home from "./pages/home.js";
 // import Navbar from "./components/Navbar.js";
-
+// import Header from "./components/Header.js";
 
 
 function App() {
     return (
     <div>
+        {/* <Header /> */}
+        
         <Container />
         {/* <Footer /> */}
     </div>

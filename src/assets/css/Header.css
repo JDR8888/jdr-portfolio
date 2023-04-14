@@ -1,0 +1,40 @@
+.header-container {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    background-color: black;
+    /* z-index: 9999; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px; /* adjust height as needed */
+  }
+  
+  .icon-container {
+    margin-left: 24px; /* adjust margin as needed */
+  }
+  
+  .name-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .name {
+    color: white;
+    animation: colorAnimation 5s infinite; /* adjust animation duration as needed */
+    font-size: 36px;
+    letter-spacing: 11px;
+  }
+  
+  @keyframes colorAnimation {
+    0% {
+      color: rgba(239, 239, 253, 0.763);
+    }
+    50% {
+      color: gray; /* change to desired color */
+    }
+    100% {
+      color: white;
+    }
+  }
