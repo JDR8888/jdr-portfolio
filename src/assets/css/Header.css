@@ -29,10 +29,10 @@
   
   @keyframes colorAnimation {
     0% {
-      color: rgba(239, 239, 253, 0.763);
+      color: white;
     }
     50% {
-      color: gray; /* change to desired color */
+      color: bisque; /* change to desired color */
     }
     100% {
       color: white;

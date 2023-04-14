@@ -22,8 +22,22 @@
   
   .home-blurb-text {
     font-size: 36px;
+    color: white;
+    animation: colorAnimation 5s infinite;
   }
   
+  @keyframes colorAnimation {
+    0% {
+      color: white;
+    }
+    50% {
+      color: bisque; /* change to desired color */
+    }
+    100% {
+      color: white;
+    }
+  }
+
   .home-image {
     flex: 1;
   }
