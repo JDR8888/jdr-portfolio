@@ -1,18 +1,78 @@
-body {
-    
-}
+/* ../assets/css/About.css */
 
-section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
-    padding: 15px;
-}
+/* Overall container for the About component */
+.about-container {
+    width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Container for the about-blurb section */
+  .about-blurb-container {
+    width: 100%; /* Take up the full width of the about-container */
+  }
+  
+  /* Title for the about-blurb section */
+  .about-blurb-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Text for the about-blurb section */
+  .about-blurb-text {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  
+  /* Container for the two half-containers */
+  .half-container {
+    display: flex;
+    width: 100%; /* Take up the full width of the about-container */
+  }
+  
+  /* Left half-container for the skills table */
+  .left-half-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; /* Add some padding for spacing */
+  }
+  
+  /* Title for the skills table */
+  .skills-table-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add some margin at the bottom for spacing */
+  }
 
-p {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  .desc {
+    font-size: 24px;
+  }
+  .even-row td {
+    background-color: grey;
+  }
+
+  .icons {
+    font-size: 36px;
+  }
+  
+  /* Right half-container for the image */
+  .right-half-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; /* Add some padding for spacing */
+  }
+  
+  /* Image */
+  .about-image img {
+    max-width: 60%;
+    max-height: 50%;
+  }
+  
+  .divide {
+    color: bisque;
+    z-index: 9999;
+  }

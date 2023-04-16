@@ -38,3 +38,9 @@
       color: white;
     }
   }
+
+  @media screen and (max-width: 600px) { 
+    .name {
+      font-size: 18px;
+    };
+  }

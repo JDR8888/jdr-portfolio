@@ -3,17 +3,17 @@ import { Card as MuiCard, CardContent, Typography } from '@mui/material'; // Imp
 
 const Card = ({ title, description, image, link }) => {
   return (
-    <MuiCard>
+    <MuiCard sx={{width: '100%', height: '100vh', marginTop: '30px'}}>
       {/* Use appropriate Material-UI card components and props to customize your card design */}
       <CardContent>
         <Typography variant="h3">{title}</Typography>
         <Typography variant="body1">{description}</Typography>
         {/* make sure link is a usable thing */}
-        <Typography variant="body1">{link}</Typography>
+        <a href={link} target='_blank'> <Typography variant="body1">See the Project</Typography></a>
         
       </CardContent>
       {/* Render image or other content based on your design requirements */}
-      <img src={image} alt={title} width="650px" />
+      <img src={image} alt={title}  />
     </MuiCard>
   );
 };

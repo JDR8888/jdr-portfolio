@@ -1,81 +1,16 @@
-body {
-    background-color: #131414;
-}
 .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .home-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-  }
-  
-  .home-blurb {
-    flex: 1;
-    text-align: center;
-    /* margin-top: 25%; */
-  }
-  
-  .home-blurb-text {
-    font-size: 36px;
-    color: white;
-    animation: colorAnimation 5s infinite;
-  }
-  
-  @keyframes colorAnimation {
-    0% {
-      color: white;
-    }
-    50% {
-      color: bisque; /* change to desired color */
-    }
-    100% {
-      color: white;
-    }
-  }
+  width: 80%;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  text-align: center;
+  margin-left: 10%;
+  /* height: 80vh; */
 
-  .about-blurb-text {
-    font-size: 28px;
-    color: white;
-    animation: colorAnimation 5s infinite;
-    margin-right: 15px;
-  }
+}
 
-  .home-image {
-    flex: 1;
-  }
-  
-  .home-image img {
-    width: 77%;
-    max-width: 400px; /* Adjust the size of the image as needed */
-    margin: 0 auto;
-    /* -webkit-filter: invert(.75); 
-    filter: invert(.75);  */
-  }
-
-  .home-content ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .home-content li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; /* Add margin between list items */
-  }
-  
-  .list-item-icon {
-    margin-left: 36px; /* Add spacing between icon and text */
-    float: right;
-  }
-  
-  .list-item-text {
-    font-size: 16px; /* Adjust font size as needed */
-    float: left;
-    width: 100px;
-  }
+.home-blurb-text {
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: 20%;
+}
