@@ -9,7 +9,7 @@ The deployed page is: https://jdr8888.github.io/jdr-portfolio/
 
 Screenshot of the page:
 
-![screenshot of project](./assets/images/06-screenshot.jpg)
+![portfolio-demo](https://user-images.githubusercontent.com/26306525/232332542-76d3c9ae-778c-440d-87a2-ae4df38056f1.gif)
 
 
 # Installation
@@ -18,7 +18,8 @@ N/A
 N/A
 # Credits   
   [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com) 
-  symbol.cc, openweather, 
+  react-icons, material ui, axios, Columbia University
+  
 # License
 Please see the repo for license info
 
