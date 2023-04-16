@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, {useState} from 'react';
 import { CssVarsProvider, useColorScheme } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
 import Typography from '@mui/joy/Typography';
@@ -7,14 +7,33 @@ import FormLabel from '@mui/joy/FormLabel';
 import Textarea from '@mui/joy/Textarea'
 import Input from '@mui/joy/Input';
 import Button from '@mui/joy/Button';
-import Link from '@mui/joy/Link';
 
 
 export default function App() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputName = target.name;
+    const inputValue = target.value;
+    console.log(inputValue);
+  
+    if (inputName === 'name') {
+        setName(inputValue);
+      } else if (inputName === 'email') {
+        setEmail(inputValue);
+      } else {
+        setMessage(inputValue);
+      }
+  };
+
   return (
     <CssVarsProvider>
       <main>
-        {/* <ModeToggle /> */}
         <Sheet
           sx={{
             width: 300,
@@ -44,6 +63,7 @@ export default function App() {
               type="name"
               placeholder="Your Name"
               color="info"
+              onChange={handleInputChange}
             />
           </FormControl>
           <FormControl>
@@ -54,6 +74,7 @@ export default function App() {
               type="email"
               placeholder="johndoe@email.com"
               color="info"
+              onChange={handleInputChange}
             />
           </FormControl>
           <FormControl>
@@ -66,19 +87,14 @@ export default function App() {
               minRows={3}
               maxRows={5}
               color="info"
+              onChange={handleInputChange}
             />
           </FormControl>
 
           <Button sx={{ mt: 1 /* margin top */ }}
           color="info"
           >Send</Button>
-          {/* <Typography
-            endDecorator={<Link href="/sign-up">Sign up</Link>}
-            fontSize="sm"
-            sx={{ alignSelf: 'center' }}
-          >
-            Don&apos;t have an account?
-          </Typography> */}
+
         </Sheet>
       </main>
     </CssVarsProvider>
