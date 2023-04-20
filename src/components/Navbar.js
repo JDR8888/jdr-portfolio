@@ -31,7 +31,7 @@ export default function Navbar({currentPage, handlePageChange}) {
           },
         }}
       >
-        <Tab onClick={() => handlePageChange('Home')}> ⌂ HOME </Tab>
+        <Tab onClick={() => handlePageChange('Home')}> HOME </Tab>
         <Tab onClick={() => handlePageChange('About')}>
             ABOUT
             </Tab>
