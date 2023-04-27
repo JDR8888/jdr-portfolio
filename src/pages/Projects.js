@@ -32,7 +32,7 @@ const Portfolio = () => {
     },
     {
       title: 'Weather or not',
-      description: "Fun little project using openweathermap's geo-locator api, 5-day forecase api, and current-weather api. Uses JQuery and Bootstrap CSS, with localstorage for persistent data." ,
+      description: "Fun little project using openweathermap's geo-locator api, 5-day forecast api, and current-weather api. Uses JQuery and Bootstrap CSS, with localstorage for persistent data. Just search any city and instantly get the current weather + forecast. When you revisit the page, your localstorage will allow you to see your past searches and select from the list to search again" ,
       image: weatherDemo,
       link: 'https://jdr8888.github.io/weather-or-not/',
       repo: 'https://github.com/JDR8888/weather-or-not'

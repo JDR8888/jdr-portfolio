@@ -44,7 +44,9 @@ export default function App() {
 
 
   return (
-      <main>
+      <main 
+      style={{paddingTop: '3em'}}
+      >
         <Sheet
           sx={{
             width: 300,
