@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/jdr-portfolio/static/css/main.316497fa.css",
-    "main.js": "/jdr-portfolio/static/js/main.6dbb0933.js",
+    "main.css": "/jdr-portfolio/static/css/main.15299cd0.css",
+    "main.js": "/jdr-portfolio/static/js/main.32a90615.js",
     "static/js/787.a3c9ebf3.chunk.js": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js",
-    "static/media/love-hungry-demo.gif": "/jdr-portfolio/static/media/love-hungry-demo.84b02920270d3ac1f49a.gif",
+    "static/media/Gameboxd-demo.gif": "/jdr-portfolio/static/media/Gameboxd-demo.30d24bf2fea61e8bd712.gif",
+    "static/media/Love-hungry-demo-2.gif": "/jdr-portfolio/static/media/Love-hungry-demo-2.3410aa359e857ccfa6bf.gif",
     "static/media/groupie-demo-optimized-gif.gif": "/jdr-portfolio/static/media/groupie-demo-optimized-gif.57df8c5ae92b8957746d.gif",
     "static/media/jdr-icon.png": "/jdr-portfolio/static/media/jdr-icon.8887b313fc96d4d48831.png",
     "static/media/love-hungry.png": "/jdr-portfolio/static/media/love-hungry.cf11242b719184c24fa1.png",
     "static/media/2023-resume-short-jdr.pdf": "/jdr-portfolio/static/media/2023-resume-short-jdr.3416fb78047a20656067.pdf",
     "static/media/jdr-portfolio-pfp.jpg": "/jdr-portfolio/static/media/jdr-portfolio-pfp.0d357658bd6fc76b8c32.jpg",
     "index.html": "/jdr-portfolio/index.html",
-    "main.316497fa.css.map": "/jdr-portfolio/static/css/main.316497fa.css.map",
-    "main.6dbb0933.js.map": "/jdr-portfolio/static/js/main.6dbb0933.js.map",
+    "main.15299cd0.css.map": "/jdr-portfolio/static/css/main.15299cd0.css.map",
+    "main.32a90615.js.map": "/jdr-portfolio/static/js/main.32a90615.js.map",
     "787.a3c9ebf3.chunk.js.map": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.316497fa.css",
-    "static/js/main.6dbb0933.js"
+    "static/css/main.15299cd0.css",
+    "static/js/main.32a90615.js"
   ]
 }
