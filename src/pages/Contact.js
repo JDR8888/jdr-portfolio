@@ -108,6 +108,7 @@ export default function App() {
           </FormControl>
 
           <Button sx={{ mt: 1 /* margin top */ }}
+          style={{cursor: 'crosshair'}}
           color="info"
           onClick={handleSubmit}
           >Send</Button>

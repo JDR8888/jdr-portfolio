@@ -5,15 +5,17 @@ import groupieDemo from '../assets/images/groupie-demo-optimized-gif.gif';
 import '../assets/css/projects.css';
 import '../assets/projectView.js';
 import loveDemo from '../assets/images/love-hungry-demo.gif';
+import gameDemo from '../assets/images/Gameboxd-demo.gif'
 
 const Portfolio = () => {
   // Array of project data with title, description, and image properties
   const projects = [
     {
-      title: 'Love-Hungry',
-      description: 'A dating/social networking site setting dates based on shared food preferences; Express.js, Handlebars.js, SQL/Sequelize, sessions, heroku',
-      image: image1,
-      link: 'https://love-hungry.herokuapp.com/'
+      title: 'Gameboxd',
+      description: "Letterboxd for videogames. Fullstack app featuring React.js, Express.js, JWT, MongoDB/GraphQL, 3rd-party APIs, and more. Create a profile, view other people's reviews of video games. Search for any video game you like from the search page, where you can add your review! check out your profile page when logged in to look back on reviews you've left.",
+      image: gameDemo,
+      link: 'https://gameboxed.herokuapp.com/',
+      repo: 'https://github.com/Smulchman/gameboxd'
     },
   
     {
@@ -30,7 +32,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div style={{ maxWidth: '555px', margin: '0 auto' }}>
+    <div style={{ maxWidth: '60%', margin: '0 auto' }}>
         {projects.map((project, index) => (
           <section key={index} className='show'>
             {/* Render each project as a Card component */}
