@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { CssVarsProvider } from '@mui/joy/styles';
 import Sheet from '@mui/joy/Sheet';
 import Typography from '@mui/joy/Typography';
 import FormControl from '@mui/joy/FormControl';
@@ -45,7 +44,6 @@ export default function App() {
 
 
   return (
-    <CssVarsProvider>
       <main>
         <Sheet
           sx={{
@@ -58,18 +56,19 @@ export default function App() {
             flexDirection: 'column',
             gap: 2,
             borderRadius: 'sm',
-            boxShadow: 'md',
+            boxShadow: 'xl',
+            backgroundColor: 'black'
           }}
-          variant="outlined"
+          // variant="outlined"
         >
           <div>
             <Typography level="h4" component="h1">
               <b>Send me a message!</b>
             </Typography>
-            <Typography level="body2">Fill out your information and hit send.</Typography>
+            <Typography level="body2" style={{color: 'lightgray'}}>Fill out your information and hit send.</Typography>
           </div>
           <FormControl>
-            <FormLabel>Name</FormLabel>
+            <FormLabel style={{color: 'white'}}>Name</FormLabel>
             <Input
               // html input attribute
               name="name"
@@ -80,7 +79,7 @@ export default function App() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel>Email</FormLabel>
+            <FormLabel style={{color: 'white'}}>Email</FormLabel>
             <Input
               // html input attribute
               name="email"
@@ -95,7 +94,7 @@ export default function App() {
             )}
           </FormControl>
           <FormControl>
-            <FormLabel>Message</FormLabel>
+            <FormLabel style={{color: 'white'}}>Message</FormLabel>
             <Textarea
               // html input attribute
               name="message"
@@ -115,6 +114,5 @@ export default function App() {
         </Sheet>
         
       </main>
-    </CssVarsProvider>
   );
 }
