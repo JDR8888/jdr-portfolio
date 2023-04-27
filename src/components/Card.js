@@ -25,7 +25,7 @@ const Card = ({ title, description, image, link, repo }) => {
         
       </CardContent>
       {/* Render image or other content based on your design requirements */}
-      <img src={image} alt={`demo gif of ${title}`}  />
+      <img src={image} alt={`demo gif of ${title}`} style={{width: '100%'}} />
     </MuiCard>
   );
 };
