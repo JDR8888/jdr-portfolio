@@ -1,3 +1,7 @@
+all gifs for app demos: ~605x480px
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

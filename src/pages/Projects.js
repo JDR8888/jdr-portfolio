@@ -4,7 +4,7 @@ import image1 from '../assets/images/love-hungry.png';
 import groupieDemo from '../assets/images/groupie-demo-optimized-gif.gif';
 import '../assets/css/projects.css';
 import '../assets/projectView.js';
-import loveDemo from '../assets/images/love-hungry-demo.gif';
+import loveDemo from '../assets/images/Love-hungry-demo-2.gif';
 import gameDemo from '../assets/images/Gameboxd-demo.gif'
 
 const Portfolio = () => {
@@ -27,6 +27,8 @@ const Portfolio = () => {
       title: 'Love Hungry',
       description: 'laskjf;lkasjfljasf;jasdhg;lksdhnfkdsnalk;fjsdkl;fjlkjadslkfm,dsfmnsdnfkljsdklfnsadkfsdjkfhksdljf;kjdslfkndskfnkldsf;klsdjakfljsdlkfmsndjfnjknejknke;lkaslkflkwnl;jfd.',
       image: loveDemo,
+      link: 'https://love-hungry.herokuapp.com/',
+      repo: ''
     }
     // Add more projects to the array as needed
   ];
@@ -41,6 +43,7 @@ const Portfolio = () => {
               description={project.description}
               image={project.image}
               link={project.link}
+              repo={project.repo}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
           </section>
