@@ -16,3 +16,40 @@ section {
     opacity: 1;
     
 }
+
+
+.shimmer-link {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: bisque;
+    text-decoration: none;
+  }
+  
+  .shimmer-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: shimmer 1s infinite;
+    transform: skewX(-15deg);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    
+  }
+
+  .shimmer-link:hover::before {
+    opacity: 1; /* set opacity to 1 on hover */
+  }
+  
+  @keyframes shimmer {
+    0% {
+      left: -75%;
+    }
+    100% {
+      left: 100%;
+    }
+  }

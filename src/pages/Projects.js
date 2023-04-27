@@ -17,18 +17,17 @@ const Portfolio = () => {
       link: 'https://gameboxed.herokuapp.com/',
       repo: 'https://github.com/Smulchman/gameboxd'
     },
-  
-    {
-      title: 'Project 2',
-      description: 'Description of Project 2',
-      image: groupieDemo,
-    },
     {
       title: 'Love Hungry',
-      description: 'laskjf;lkasjfljasf;jasdhg;lksdhnfkdsnalk;fjsdkl;fjlkjadslkfm,dsfmnsdnfkljsdklfnsadkfsdjkfhksdljf;kjdslfkndskfnkldsf;klsdjakfljsdlkfmsndjfnjknejknke;lkaslkflkwnl;jfd.',
+      description: "Find love through food. A unique dating app - signup and pick an avatar, set your food preferences, and choose which borrough of NYC you live in/would like to eat in. We filter by your location and food preference, and use this information to connect you with other people in the same area who share your food preferences. This project uses mySQL with sequelize.js, handlebars.js for page rendering, an express.js server, a microsoft maps API, an exhaustive (and recent) dataset of NYC restaurants, and the Bulma CSS framework for styling." ,
       image: loveDemo,
       link: 'https://love-hungry.herokuapp.com/',
       repo: ''
+    },
+     {
+      title: 'Project 2',
+      description: 'Description of Project 2',
+      image: groupieDemo,
     }
     // Add more projects to the array as needed
   ];
