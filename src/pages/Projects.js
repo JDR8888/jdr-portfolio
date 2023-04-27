@@ -6,6 +6,7 @@ import '../assets/css/projects.css';
 import '../assets/projectView.js';
 import loveDemo from '../assets/images/Love-hungry-demo-2.gif';
 import gameDemo from '../assets/images/Gameboxd-demo.gif'
+import weatherDemo from '../assets/images/weather-demo.gif'
 
 const Portfolio = () => {
   // Array of project data with title, description, and image properties
@@ -28,6 +29,13 @@ const Portfolio = () => {
       title: 'Project 2',
       description: 'Description of Project 2',
       image: groupieDemo,
+    },
+    {
+      title: 'Weather or not',
+      description: "Fun little project using openweathermap's geo-locator api, 5-day forecase api, and current-weather api. Uses JQuery and Bootstrap CSS, with localstorage for persistent data." ,
+      image: weatherDemo,
+      link: 'https://jdr8888.github.io/weather-or-not/',
+      repo: 'https://github.com/JDR8888/weather-or-not'
     }
     // Add more projects to the array as needed
   ];
