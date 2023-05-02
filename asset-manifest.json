@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jdr-portfolio/static/css/main.15299cd0.css",
-    "main.js": "/jdr-portfolio/static/js/main.0f7646bf.js",
+    "main.js": "/jdr-portfolio/static/js/main.3979e27b.js",
     "static/js/787.a3c9ebf3.chunk.js": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js",
     "static/media/Gameboxd-demo.gif": "/jdr-portfolio/static/media/Gameboxd-demo.36457230db57706e0e73.gif",
     "static/media/Love-hungry-demo-2.gif": "/jdr-portfolio/static/media/Love-hungry-demo-2.3410aa359e857ccfa6bf.gif",
@@ -9,15 +9,15 @@
     "static/media/groupie-demo-optimized-gif.gif": "/jdr-portfolio/static/media/groupie-demo-optimized-gif.57df8c5ae92b8957746d.gif",
     "static/media/jdr-icon.png": "/jdr-portfolio/static/media/jdr-icon.8887b313fc96d4d48831.png",
     "static/media/love-hungry.png": "/jdr-portfolio/static/media/love-hungry.cf11242b719184c24fa1.png",
-    "static/media/2023-resume-jdr-v2.pdf": "/jdr-portfolio/static/media/2023-resume-jdr-v2.1071d991720857f5813d.pdf",
+    "static/media/2023-resume-jdr-v3.pdf": "/jdr-portfolio/static/media/2023-resume-jdr-v3.bea954b7431fe6302a8e.pdf",
     "static/media/jdr-portfolio-pfp.jpg": "/jdr-portfolio/static/media/jdr-portfolio-pfp.0d357658bd6fc76b8c32.jpg",
     "index.html": "/jdr-portfolio/index.html",
     "main.15299cd0.css.map": "/jdr-portfolio/static/css/main.15299cd0.css.map",
-    "main.0f7646bf.js.map": "/jdr-portfolio/static/js/main.0f7646bf.js.map",
+    "main.3979e27b.js.map": "/jdr-portfolio/static/js/main.3979e27b.js.map",
     "787.a3c9ebf3.chunk.js.map": "/jdr-portfolio/static/js/787.a3c9ebf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15299cd0.css",
-    "static/js/main.0f7646bf.js"
+    "static/js/main.3979e27b.js"
   ]
 }
