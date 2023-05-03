@@ -22,13 +22,14 @@ const Portfolio = () => {
       title: 'Love Hungry',
       description: "Find love through food. A unique dating app - signup and pick an avatar, set your food preferences, and choose which borrough of NYC you live in/would like to eat in. We filter by your location and food preference, and use this information to connect you with other people in the same area who share your food preferences. This project uses mySQL with sequelize.js, handlebars.js for page rendering, an express.js server, a microsoft maps API, an exhaustive (and recent) dataset of NYC restaurants, and the Bulma CSS framework for styling." ,
       image: loveDemo,
-      link: 'https://love-hungry.herokuapp.com/',
-      repo: ''
+      link: "https://love-hungry.herokuapp.com/",
+      repo: "https://github.com/JDR8888/love-hungry"
     },
      {
-      title: 'Project 2',
-      description: 'Description of Project 2',
+      title: 'Groupie Gang',
+      description: "*under site renovation to replace API* Bulma CSS, jQuery, swiper.js, rapidAPI, mapbox API, and git version control. Collaborative student project for Columbia University. Search any music artist to find upocoming concerts around the world and get a nicely contained list of results showing the artist image, a map of the venue, and relevant info about the concert. Swipe through results with swiper.js carousel.",
       image: groupieDemo,
+      repo: "https://github.com/emmaparis/Groupie-Gang"
     },
     {
       title: 'Weather or not',
@@ -49,7 +50,7 @@ const Portfolio = () => {
               title={project.title}
               description={project.description}
               image={project.image}
-              link={project.link}
+              link={project.link ? project.link : null}
               repo={project.repo}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
