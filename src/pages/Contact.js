@@ -38,8 +38,18 @@ export default function App() {
     setIsEmailValid(isValid); // Update email validity state
   };
 
+  // const handleSubmit = () => {
+  //   sendMessage(name, email, message)
+  // }
+
   const handleSubmit = () => {
-    sendMessage(name, email, message)
+    // Construct the email link with the pre-populated message
+    const subject = 'Message from ' + name + ' at ' + email;
+    const body = message;
+    const emailLink = 'mailto:yashapeter7@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  
+    // Open the email link in a new tab
+    window.open(emailLink, '_blank');
   }
 
 
