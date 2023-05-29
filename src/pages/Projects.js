@@ -7,10 +7,18 @@ import '../assets/projectView.js';
 import loveDemo from '../assets/images/Love-hungry-demo-2.gif';
 import gameDemo from '../assets/images/Gameboxd-demo.gif'
 import weatherDemo from '../assets/images/weather-demo.gif'
+import noshDemo from '../assets/images/nosh-it demo.gif'
 
 const Portfolio = () => {
   // Array of project data with title, description, and image properties
   const projects = [
+    {
+      title: "Nosh-it (food ordering app)",
+      description: "Get your nosh on with this poshy mock food ordering app built with React.js and pico.css. Uses react hooks and localstorage for persistant data. Pico.css sets dark or light theme based on user's pc",
+      image: noshDemo,
+      link: 'https://jdr8888.github.io/nosh-it-delivery',
+      repo: 'https://github.com/JDR8888/nosh-it-delivery'
+    },
     {
       title: 'Gameboxd',
       description: "Letterboxd for videogames. Fullstack app featuring React.js, Express.js, JWT, MongoDB/GraphQL, 3rd-party APIs, and more. Create a profile, view other people's reviews of video games. Search for any video game you like from the search page, where you can add your review! check out your profile page when logged in to look back on reviews you've left.",
